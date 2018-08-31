@@ -1,0 +1,17 @@
+Package: kmod-ipt-core
+Version: 4.14.54-1
+Depends: kernel (=4.14.54-1-8ab522cc9bfb01b20e2c2741268ab645), kmod-nf-reject, kmod-nf-ipt
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 17050
+Description:  Netfilter core kernel modules
+ Includes:
+ - comment
+ - limit
+ - LOG
+ - mac
+ - multiport
+ - REJECT
+ - TCPMSS

@@ -1,0 +1,12 @@
+{
+	"model": {
+		"id": "firefly,firefly-rk3288",
+		"name": "Firefly-RK3288 Board (Linux Opensource)"
+	},
+	"network": {
+		"lan": {
+			"ifname": "eth0",
+			"protocol": "static"
+		}
+	}
+}

@@ -1,0 +1,10 @@
+Package: iw
+Version: 4.14-1
+Depends: libc, libnl-tiny
+Source: feeds/base/package/network/utils/iw
+License: GPL-2.0
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 36651
+Description:  cfg80211 interface configuration utility

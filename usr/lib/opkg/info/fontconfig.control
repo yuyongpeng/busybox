@@ -1,0 +1,8 @@
+Package: fontconfig
+Version: 2.11.1-1
+Depends: libc, libpthread, libexpat, libfreetype
+Source: feeds/packages/utils/fontconfig
+Section: xorg-util
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 118273
+Description:  fontconfig

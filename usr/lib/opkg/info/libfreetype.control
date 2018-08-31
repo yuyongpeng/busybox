@@ -1,0 +1,14 @@
+Package: libfreetype
+Version: 2.9-1
+Depends: libc, zlib, libbz2, libpng
+Source: feeds/packages/libs/freetype
+License: FTL GPL-2.0 MIT ZLIB
+LicenseFiles: docs/LICENSE.TXT docs/FTL.TXT docs/GPLv2.TXT src/bdf/README src/pcf/README src/gzip/zlib.h
+Section: libs
+Maintainer: Val Kulkov <val.kulkov@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 263231
+Description:  The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on bringing small,
+ efficient and ubiquitous products.

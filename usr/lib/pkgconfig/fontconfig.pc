@@ -1,0 +1,18 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+sysconfdir=/etc
+localstatedir=/var
+PACKAGE=fontconfig
+confdir=${sysconfdir}/fonts
+cachedir=/tmp/fontconfig/cache
+
+Name: Fontconfig
+Description: Font configuration and customization library
+Version: 2.11.1
+Requires:  freetype2
+Requires.private:  expat
+Libs: -L${libdir} -lfontconfig
+Libs.private: -L/build/openwrt-18.06/slaves/phase2/arm_cortex-a7_neon-vfpv4/build/sdk/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib -lexpat -L/build/openwrt-18.06/slaves/phase2/arm_cortex-a7_neon-vfpv4/build/sdk/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/lib -lfreetype  
+Cflags: -I${includedir} -I/build/openwrt-18.06/slaves/phase2/arm_cortex-a7_neon-vfpv4/build/sdk/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include -I/build/openwrt-18.06/slaves/phase2/arm_cortex-a7_neon-vfpv4/build/sdk/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include/freetype2 -I/build/openwrt-18.06/slaves/phase2/arm_cortex-a7_neon-vfpv4/build/sdk/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/usr/include/libpng16  

@@ -1,0 +1,11 @@
+Package: dejavu-fonts-ttf-DejaVuSansMono
+Version: 2.37-1
+Depends: libc
+Source: feeds/packages/fonts/dejavu-fonts-ttf
+License: Bitstream-Vera-Fonts-Copyright Arev-Fonts-Copyright Public-Domain 
+LicenseFiles: LICENSE
+Section: fonts
+Maintainer: Mirko Vogt <mirko-dev@nanl.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 203382
+Description:  DejaVuSansMono
